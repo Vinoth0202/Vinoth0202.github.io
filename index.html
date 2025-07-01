@@ -5,9 +5,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Your Name - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      position: relative;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      margin-bottom: 1rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      background: #fff;
+      margin: 1rem auto;
+      max-width: 900px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #333;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 0.8rem;
+    }
+    a {
+      color: #0077cc;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #222;
+      color: #ccc;
+    }
+  </style>
 </head>
 <body>
   <header>
+    <img src="your-image.jpg" alt="Your Profile Picture">
     <h1>Your Name</h1>
     <p>Web Developer | Designer | Creator</p>
     <nav>
@@ -19,21 +83,21 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I'm a web developer passionate about building fast, modern websites. I love working with HTML, CSS, JavaScript, and open-source projects.</p>
+    <p>Hello! I'm a web developer passionate about building fast, modern websites. I love working with HTML, CSS, JavaScript, and open-source projects. I focus on responsive, accessible, and performance-optimized design.</p>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
     <ul>
-      <li><a href="https://github.com/yourusername/project1">Project One</a> – A cool app I built using React.</li>
-      <li><a href="https://github.com/yourusername/project2">Project Two</a> – A portfolio site made with HTML and CSS.</li>
+      <li><a href="https://github.com/yourusername/project1" target="_blank">Project One</a> – A cool app I built using React.</li>
+      <li><a href="https://github.com/yourusername/project2" target="_blank">Project Two</a> – A portfolio site made with HTML and CSS.</li>
     </ul>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: your.email@example.com</p>
-    <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
   </section>
 
   <footer>
